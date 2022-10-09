@@ -1,0 +1,38 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - grunt-contrib-qunit > grunt-lib-phantomjs > phantomjs > request > hawk > hoek:
+        patched: '2022-10-09T18:18:02.873Z'
+    - grunt-contrib-qunit > grunt-lib-phantomjs > phantomjs > request > hawk > boom > hoek:
+        patched: '2022-10-09T18:18:02.873Z'
+    - grunt-contrib-qunit > grunt-lib-phantomjs > phantomjs > request > hawk > sntp > hoek:
+        patched: '2022-10-09T18:18:02.873Z'
+    - grunt-contrib-qunit > grunt-lib-phantomjs > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-09T18:18:02.873Z'
+  'npm:lodash:20180130':
+    - grunt-bower-requirejs > bower-requirejs > lodash:
+        patched: '2022-10-09T18:18:02.873Z'
+  'npm:mime:20170907':
+    - bower > bower-registry-client > request > mime:
+        patched: '2022-10-09T18:18:02.873Z'
+  'npm:minimatch:20160620':
+    - grunt-bower-requirejs > bower-requirejs > file-utils > minimatch:
+        patched: '2022-10-09T18:18:02.873Z'
+    - grunt-bower-requirejs > load-grunt-tasks > findup-sync > glob > minimatch:
+        patched: '2022-10-09T18:18:02.873Z'
+    - grunt-bower-requirejs > bower-requirejs > file-utils > glob > minimatch:
+        patched: '2022-10-09T18:18:02.873Z'
+    - grunt-bower-requirejs > bower-requirejs > file-utils > findup-sync > glob > minimatch:
+        patched: '2022-10-09T18:18:02.873Z'
+  'npm:request:20160119':
+    - grunt-contrib-qunit > grunt-lib-phantomjs > phantomjs > request:
+        patched: '2022-10-09T18:18:02.873Z'
+  'npm:tough-cookie:20170905':
+    - grunt-contrib-qunit > grunt-lib-phantomjs > phantomjs > request > tough-cookie:
+        patched: '2022-10-09T18:18:02.873Z'
+  'npm:tunnel-agent:20170305':
+    - grunt-contrib-qunit > grunt-lib-phantomjs > phantomjs > request > tunnel-agent:
+        patched: '2022-10-09T18:18:02.873Z'
